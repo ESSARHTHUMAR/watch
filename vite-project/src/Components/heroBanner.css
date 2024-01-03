@@ -1,0 +1,19 @@
+.container{
+    transition: all ease-in-out 1s;
+}
+
+.container .image:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: scale cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+#main{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+    width: 100%;
+}
+
+.icons:hover{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+    cursor: pointer;
+}
